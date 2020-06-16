@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Curso de Bootstrap 4</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
   </head>
 
   <body>
    
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
         <div class="container">
           <a class="navbar-brand h1 mb-0" href="#">Curso</a>
@@ -68,6 +73,7 @@
         </div>
     </nav>
 
+    <!-- Carousel -->
     <div id="carouselSite" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
@@ -125,14 +131,15 @@
 
     </div>
 
+    <!-- ScrollSpy -->
     <div class="container">
 
       <div class="row">
 
         <div class="col-12 text-center my-5">
-          <h1 class="display-3">Lorem Ipsum</h1>
+          <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i>Lorem Ipsum</h1>
           <p>It is a long established fact that a reader will be</p>
-        </div>
+      </div>
 
       </div>
 
@@ -174,9 +181,7 @@
 
         <div class="col-sm-6 col-md-8">
 
-            <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite" style="position: relative;
-            overflow: auto;
-            height: 345px;">
+            <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
 
               <h4 id="item1">Lorem Ipsum</h4>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
@@ -205,6 +210,7 @@
 
      </div>
 
+        <!-- Cards -->
         <div class="row mb-5">
 
           <div class="col-sm-4">
@@ -296,7 +302,7 @@
         <div class="row">
           <div class="col-12 text-center">
 
-            <h1 class="display-4">Proin sed Tellus</h1>
+            <h1 class="display-4"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i>Proin sed Tellus</h1>
             <p class="lead">Morbi ut cursus justo, eu lobortis nunc. Cras vel vestibulum nisi.</p>
             <hr>
 
@@ -307,15 +313,15 @@
           <div class="col-12">
             <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
 
-              <li nav-item>
+              <li class="nav-item">
                 <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Consectetur</a>
               </li>
 
-              <li nav-item>
+              <li class="nav-item">
                 <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Maecenas</a>
               </li>
 
-              <li nav-item>
+              <li class="nav-item">
                 <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Pellentesque</a>
               </li>
 
@@ -387,6 +393,123 @@
       </div>
     </div>
 
+    <!-- Formulário Responsivo -->
+    <div class="container">
+
+      <div class="row">
+
+          <div class="col-12 text-center my-5">
+
+              <h1 class="display-4"><i class="fa fa-paper-plane text-primary"></i> Phasellus orci dolor</h1>
+
+          </div>
+
+      </div>
+
+      <div class="row justify-content-center mb-5">
+
+          <div class="col-sm-12 col-md-10 col-lg-8">
+
+              <form action="">
+
+                  <div class="form-row">
+
+                      <div class="form-group col-sm-6">
+
+                          <label for="inputNome">Seu nome</label>
+                          <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+
+                      </div>
+
+                      <div class="form-group col-sm-6">
+
+                          <label for="inputSobrenome">Seu sobrenome</label>
+                          <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+
+                      </div>
+
+                  </div>
+
+                  <div class="form-row">
+
+                      <div class="form-group col-sm-12">
+
+                          <label for="inputEnd">Seu endereço</label>
+                          <input type="text" class="form-control" id="inputEnd" placeholder="Endereço completo">
+
+                      </div>
+
+                  </div>
+
+                  <div class="form-row">
+
+                      <div class="form-group col-sm-6">
+
+                          <label for="inputCidade">Sua cidade</label>
+                          <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+
+                      </div>
+
+                      <div class="form-group col-sm-4">
+
+                          <label for="inputEst">Seu estado</label>
+                          <select name="" id="inputEst" class="form-control">
+                              <option selected>Escolha</option>
+                              <option>...</option>
+                              <option>...</option>
+                              <option>...</option>
+                          </select>
+
+                      </div>
+
+                      <div class="form-group col-sm-2">
+
+                          <label for="inputCep">Seu CEP</label>
+                          <input type="text" id="inputCep" class="form-control">
+
+                      </div>
+
+                  </div>
+
+                  <div class="form-row">
+
+                      <div class="form-group col-sm-12">
+
+                          <div class="form-check">
+
+                              <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox">Deseja receber novidades por e-mail?
+                              </label>
+
+                          </div>
+
+                      </div>
+
+
+
+                  </div>
+
+                  <div class="form-row">
+
+                      <div class="col-sm-12">
+
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                          <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Nunc semper blandit" data-content="Nunc dictum volutpat sem sit amet congue. 
+                          Interdum et malesuada fames ac ante ipsum primis in faucibus.">Ajuda</a>
+
+                      </div>
+
+                  </div>
+
+              </form>
+
+          </div>
+
+      </div>
+
+      
+    </div>
+
     <!-- Modal -->
     <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
@@ -417,5 +540,13 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+    
+      $(function () {
+          $('[data-toggle="popover"]').popover()
+      })
+  
+    </script>
+
   </body>
 </html>
